@@ -20,3 +20,5 @@ def test_slice(array_data):
 
     assert arrs.my_slice([], 1) == []
     assert arrs.my_slice([1, 2, 3, 4], 1, 3) == [2, 3]
+
+    # bug fix
